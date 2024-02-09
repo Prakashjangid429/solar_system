@@ -1,0 +1,17 @@
+/* for banner */
+@media (max-width: 992px) {
+    .text{
+        padding-top: 5rem;
+    }
+    #head{
+        font-size: 3rem;
+    }
+}
+@media (max-height:650px){
+    .banner{
+        height:100vh;
+    }
+}
+@media (max-width: 1199.98px) {
+    
+}

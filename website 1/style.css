@@ -1,0 +1,104 @@
+/* *{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.menu li{
+    font-size: large;
+    font-weight:500;
+    margin-right: 2rem;
+    height: 100%;
+    
+}
+.menu li:hover{
+    /* font-size: larger; */
+    background-color: skyblue;
+    border: 2px solid salmon;
+    
+    
+}
+.banner{
+    height: 90vh;
+    background-image: url(img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    /* align-items: center; */
+}
+.text{
+    height: 100%;
+    
+    color: rgb(255, 255, 255);
+    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding-top: 25vh;
+   
+    
+}
+.top{
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 100%;
+}
+
+.skill{
+    background-color: rgba(158, 226, 226, 0.493);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2px;
+}
+.skill:hover{
+    background-color: rgb(137, 189, 189);
+    scale: 1.05;
+    transition: 0.5s;
+    
+}
+.img{
+    background-image: url(img/about.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.img:hover{
+ scale: 1.05;
+ opacity: 1;
+}
+.cat4{
+    background-image: url(img/cat-4.jpg);
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+
+}
+.cimg:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.inner{
+    background-color: rgba(0, 255, 255, 0.212);
+    margin: 0.5rem;
+
+}
+.footer{
+    display: inline-block;
+    padding-top: 3rem;
+    
+}
+#head{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+body::-webkit-scrollbar{
+    background-color:transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(36, 36, 34);
+    border-radius: 2rem;
+}
